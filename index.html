@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALUMNOS-ID</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 2px solid #dfe7ff;
+        }
+    </style>
+
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+            background-color: white;
+            padding: 20px;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" style="text-decoration: none; color: blue; margin-right:10px"><i class="bi bi-house-door-fill"></i> Inicio</a>
+        <a href="registro.html" style="text-decoration: none; color: blue; margin-right:10px"><i class="bi bi-person-plus-fill"></i> Nuevo Alumno</a>
+        <a href="#" style="text-decoration: none; color: blue; margin-right:10px"><i class="bi bi-gear-fill"></i> Configuración</a>
+    </nav>
+    <hr>
+    <main>
+
+        <h1><i class="bi bi-people-fill"></i> Lista de Alumnos</h1>
+
+        <p>
+            <a href="registro.html" style="background-color: black;
+                color: white;
+                padding: 8px 12px;
+                text-decoration: none;
+                display: inline-block;">
+                <i class="bi bi-plus-circle"></i>
+                Agregar Alumno
+            </a>
+        </p>
+        <br>
+
+        <table border="1" cellpadding="10" cellspacing="0" width="45%">
+            <thead>
+                <tr style="background-color: #f9fcfd;">
+                    <th>ID</th>
+                    <th>Estudiante</th>
+                    <th>Carrera</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Juan Perez</td>
+                    <td>Ing. Sistemas</td>
+                    <td>
+                        <a href="#"><i class="bi bi-pencil-square"></i></a>
+                        <a href="#"><i class="bi bi-trash" style="color: red"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Maria Gomez</td>
+                    <td>Diseño Gráfico</td>
+                    <td>
+                        <a href="#"><i class="bi bi-pencil-square"></i></a>
+                        <a href="#"><i class="bi bi-trash" style="color: red"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Carlos Ruiz</td>
+                    <td>Marketing</td>
+                    <td>
+                        <a href="#"><i class="bi bi-pencil-square"></i></a>
+                        <a href="#"><i class="bi bi-trash" style="color: red"></i></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+</body>
+
+</html>
